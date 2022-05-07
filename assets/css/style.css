@@ -7,6 +7,19 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding: 0px 8px;
+}
+
+.col3{
+    width: calc(100%/3);
+    
+}
 .clear{
     clear: both;
 }
@@ -142,9 +155,6 @@ html{
     overflow: hidden;
 }
 .content .members-items {
-    float: left;
-    /* margin: 15px 0; */
-    width: calc(100% /3);
     text-align: center;
 }
 .content .member-names{
@@ -196,19 +206,11 @@ html{
     border-radius: 50%;
     background-color: black;
 }
-.tour-section .play-item{
-    /* background-color: #fff; */
-    float: left;
-    width: calc(100%/3);
-    padding: 0px 8px;
 
-    
-}
 
 .tour-section .play-list{
     /* padding: 32px 0px; */
-    margin-left: -8px;
-    margin-right: -8px;
+
     margin-top: 32px;
     padding-bottom: 48px;
 }
