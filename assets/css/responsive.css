@@ -1,0 +1,75 @@
+/* Mobile */
+@media (max-width: 740px){
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding-left: 46px;
+
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search { 
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #header .menu {
+        display: block;
+    }
+    .members-lists .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .content .member-img {
+        width: 60%;
+    }
+    .moblie-full-width, .mobile-col-full{
+        width: 100%;
+    }
+    .concact-form{
+        /* font-size: 15px; */
+        margin-top: 16px;
+    }
+}
+/* tabet & mobile */
+@media (max-width:1023px){
+    /* .btn{
+        padding: 16px;
+    } */
+    .concact-form .form-controll{
+        padding: 16px;
+    }
+    .social a{
+        font-size: 46px;
+        margin: 0 8px;
+    }
+    .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-content{
+        line-height: 2;
+    }
+
+}
+/* tabet */
+@media (min-width: 740px) and(max-width:1023px){
+
+}
+/* PC */
+@media (min-width: 1024px){
+    #header .menu {
+        display: none;
+    }
+}
