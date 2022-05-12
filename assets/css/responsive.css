@@ -1,5 +1,5 @@
 /* Mobile */
-@media (max-width: 740px){
+@media (max-width: 739px){
     #nav > li {
         display: block;
     }
@@ -51,7 +51,7 @@
         padding: 16px;
     }
     .social a{
-        font-size: 46px;
+        font-size: 30px;
         margin: 0 8px;
     }
     .copyright {
@@ -71,7 +71,7 @@
 
 }
 /* PC */
-@media (min-width: 1024px){
+@media (min-width: 64em){
     #header .menu {
         display: none;
     }
